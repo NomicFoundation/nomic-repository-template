@@ -16,3 +16,7 @@ The repo contains two automation workflows:
 
 - `add-issue-to-project.yml` adds every new issue and pull request to the configured project
 - `add-label-to-new-issue.yml` adds the `status:triaging` label to all new issues and pull requests, unless they already have a label that starts with `status:`. This means that issues created by external users will get this label, but without affecting issues opened by repo owners that set a status during creation.
+
+## Labels
+
+The related GitHub project relies on certain labels being used in the issue tracker. This repo comes with a basic [set of labels](https://github.com/NomicFoundation/nomic-repository-template/labels) for that purpose, but each project can add new ones according to its needs.
